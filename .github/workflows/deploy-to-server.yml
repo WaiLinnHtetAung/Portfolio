@@ -29,6 +29,9 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
+      - name: Add SSH Host Key
+        run: echo "${{ secrets.KNOWN_HOSTS }}" >> $HOME/.ssh/known_hosts
+
       - name: Deploy to Server
         run: |
           ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd /var/www/me && git pull origin main && npm install && npm run build'
