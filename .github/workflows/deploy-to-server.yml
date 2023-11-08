@@ -34,6 +34,7 @@ jobs:
 
       - name: Deploy to Server
         run: |
+          export PATH=$PATH:/root/.nvm/versions/node/v20.9.0/lib/node_modules
           ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd /var/www/me && git pull origin main && npm install && npm run build'
           
    
