@@ -34,7 +34,7 @@ jobs:
 
       - name: Run build
         run: |
-          npm run build
-          
+          cd /var/www/me && npm run build
+
 
    
