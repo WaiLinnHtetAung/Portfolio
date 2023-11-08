@@ -34,8 +34,7 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          export NVM_DIR=~/.nvm
-          source ~/.nvm/nvm.sh
+          export PATH=$PATH:/root/.nvm/versions/node/v20.9.0/bin/npm
           ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd /var/www/me && git pull origin main && npm install && npm run build'
           
    
