@@ -25,7 +25,9 @@ jobs:
 
     steps:
       - name: Install SSH key
-        run: echo "$SSH_PRIVATE_KEY" > ~/.ssh/contabo && chmod 600 ~/.ssh/contabo
+        run: |
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/contabo
+          chmod 600 ~/.ssh/contabo
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
