@@ -31,11 +31,6 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          ssh $SSH_USERNAME@$SERVER_IP 'cd /var/www/me && git pull origin main && npm install && npm run build'
+          ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd /var/www/me && git pull origin main && npm install && npm run build'
           
-        env:
-          SSH_USERNAME: ${{ secrets.USERNAME }}
-          SERVER_IP: ${{ secrets.HOST }}
-
-
    
