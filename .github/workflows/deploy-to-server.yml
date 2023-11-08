@@ -34,7 +34,7 @@ jobs:
           ssh -i ~/.ssh/contabo $SSH_USERNAME@$SERVER_IP "cd /var/www/me && git pull && npm install && npm run build"
         env:
           SSH_USERNAME: ${{ secrets.USERNAME }}
-          SERVER_IP: ${{ secrets.HOST }}
+          SERVER_IP: ${{ secrets.HOST }} 
 
 
    
