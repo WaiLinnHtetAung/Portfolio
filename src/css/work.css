@@ -1,0 +1,241 @@
+.work {
+    padding: 50px 25% 20px;
+}
+
+.work .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.work .header h2 {
+    color: #ccd6f6;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.work .header h2::before {
+    content: " ";
+    position: absolute;
+    bottom: -3px;
+    width: 30px;
+    height: 2px;
+    background-color: #60e8cd;
+}
+
+.work .header .divider {
+    width: 300px;
+    height: 2px;
+    background-color: #8892b0;
+}
+
+.work .work-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.work .work-content .project {
+    width: 32%;
+    background-color: #112f63;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin: 0 10px 15px 0;
+    transition: .3s ease;
+}
+
+.work .work-content .project:hover {
+    transform: translateY(-10px);
+}
+
+.work .project .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work .project img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.work .project h2 {
+    font-size: 17px;
+    color: #ccd6f6;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.work .project:hover h2 {
+    color: #60e8cd;
+}
+
+.work .project p {
+    color: #a8b1ce;
+    font-size: 14px;
+    height: 100px;
+}
+
+.work .project .link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.work .project .git a {
+    margin-right: 10px;
+}
+
+.work .project .link a {
+    color: #a8b2d1;
+}
+
+.work .project .link a svg {
+    font-size: 25px;
+    transition: .3s ease;
+}
+
+.work .project .link a:hover svg {
+    color: #60e8cd;
+}
+
+@media (max-width: 1600px) {
+    .work {
+        padding: 100px 20% 20px;
+        margin-top: 130px;
+    }
+    .work .header h2 {
+        font-size: 20px;
+    }
+    .work .header .divider {
+        width: 200px;
+    }
+    .work .work-content .project {
+        width: 32%;
+        padding: 20px 15px;
+        margin: 0 10px 15px 0;
+    }
+    .work .project h2 {
+        font-size: 15px;
+    }
+    .work .project p {
+        font-size: 12px;
+        height: 90px;
+    }
+    .work .project .link a svg {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .work {
+        padding: 100px 18% 20px;
+        margin-top: 130px;
+    }
+    .work .header h2 {
+        font-size: 18px;
+    }
+    .work .header .divider {
+        width: 200px;
+    }
+    .work .work-content {
+        justify-content: center;
+    }
+    .work .work-content .project {
+        width: 31%;
+        padding: 20px 15px;
+        margin: 0 10px 15px 0;
+    }
+    .work .project h2 {
+        font-size: 14px;
+    }
+    .work .project p {
+        font-size: 11px;
+        height: 90px;
+    }
+    .work .project .link a svg {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    .work {
+        padding: 100px 18% 20px;
+        margin-top: 130px;
+    }
+    .work .header h2 {
+        font-size: 18px;
+    }
+    .work .header .divider {
+        width: 200px;
+    }
+    .work .work-content {
+        justify-content: center;
+    }
+    .work .work-content .project {
+        width: 48%;
+        padding: 20px 15px;
+        margin: 0 10px 15px 0;
+    }
+    .work .project h2 {
+        font-size: 18px;
+    }
+    .work .project p {
+        font-size: 12px;
+        height: 90px;
+    }
+    .work .project .link a svg {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .work {
+        padding: 100px 25% 20px;
+        margin-top: 130px;
+    }
+    .work .header h2 {
+        font-size: 15px;
+    }
+    .work .header .divider {
+        width: 120px;
+    }
+    .work .work-content .project {
+        width: 96%;
+        padding: 20px 15px;
+        margin: 0 10px 15px 0;
+    }
+    .work .project h2 {
+        font-size: 18px;
+    }
+    .work .project p {
+        font-size: 12px;
+        height: 90px;
+    }
+    .work .project .link a svg {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:500px) {
+    .work {
+        padding: 100px 12% 20px 20%;
+        margin-top: 100px;
+        overflow-x: hidden;
+    }
+    .work .project p {
+        font-size: 12px;
+        height: 60px;
+    }
+}
+
+@media (max-width:400px) {
+    .work .project p {
+        font-size: 12px;
+        height: 90px;
+    }
+}

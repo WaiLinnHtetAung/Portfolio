@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bangers&family=Bebas+Neue&family=Noto+Serif+Myanmar:wght@400;500;600;700;800;900&family=Staatliches&family=Teko:wght@400;500;600;700&display=swap');
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #60e8cd;
+}

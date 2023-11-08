@@ -1,0 +1,227 @@
+.experience {
+    padding: 50px 30% 20px;
+    height: 90vh;
+}
+
+.experience .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.experience .header h2 {
+    color: #ccd6f6;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.experience .header h2::before {
+    content: " ";
+    position: absolute;
+    bottom: -3px;
+    width: 60px;
+    height: 2px;
+    background-color: #60e8cd;
+}
+
+.experience .header .divider {
+    width: 300px;
+    height: 2px;
+    background-color: #8892b0;
+}
+
+.experience .exp-container {
+    display: flex;
+    gap: 30px;
+}
+
+.section__Jobs-container {
+    margin-top: 50px;
+    max-width: 700px;
+    position: relative;
+}
+
+.section__Jobs-styledTabList {
+    max-width: 130px;
+    padding: 0;
+}
+
+.section__Jobs-buttonCompany {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 2px solid #8892b0;
+    outline: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    height: 42px;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.section__Jobs-buttonCompany:hover,
+.section__Jobs-buttonCompany:focus {
+    background-color: #172a45;
+}
+
+.section__Jobs-buttonCompany:hover,
+.section__Jobs-buttonCompany:active,
+.section__Jobs-buttonCompany:focus {
+    color: #64ffda;
+    outline: 0px;
+}
+
+.section__Jobs-styledContent {
+    font-family: sans-serif;
+    text-align: left;
+    color: #8892b0;
+    margin-top: -10px;
+}
+
+.section__Jobs-styledContent h4 {
+    color: #ccd6f6;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.section__Jobs-styledContent h5 {
+    font-size: 13px;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    color: #64ffda;
+}
+
+.section__Jobs-styledContent p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+div.section__Jobs-styledContent p {
+    padding-left: 30px;
+}
+
+.section__Jobs-detail::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #64ffda;
+}
+
+@media (max-width: 1600px) {
+    .experience {
+        padding: 100px 25% 20px;
+    }
+    .experience .header h2 {
+        font-size: 20px;
+    }
+    .experience .header .divider {
+        width: 200px;
+    }
+    .section__Jobs-buttonCompany {
+        font-size: 12px;
+        height: 35px;
+    }
+    .section__Jobs-styledContent h4 {
+        font-size: 20px;
+    }
+    .section__Jobs-styledContent h5 {
+        font-size: 12px;
+    }
+    .section__Jobs-styledContent p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .experience {
+        padding: 100px 23% 20px;
+    }
+    .experience .header h2 {
+        font-size: 18px;
+    }
+    .experience .header .divider {
+        width: 200px;
+    }
+    .section__Jobs-buttonCompany {
+        font-size: 12px;
+        height: 30px;
+    }
+    .section__Jobs-styledContent h4 {
+        font-size: 20px;
+    }
+    .section__Jobs-styledContent h5 {
+        font-size: 12px;
+    }
+    .section__Jobs-styledContent p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 990px) {
+    .experience {
+        padding: 100px 20% 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience {
+        padding: 100px 20% 20px;
+    }
+    .experience .header h2 {
+        font-size: 15px;
+    }
+    .experience .header .divider {
+        width: 120px;
+    }
+    .section__Jobs-buttonCompany {
+        font-size: 12px;
+        height: 30px;
+    }
+    .section__Jobs-styledContent h4 {
+        font-size: 18px;
+    }
+    .section__Jobs-styledContent h5 {
+        font-size: 12px;
+    }
+    .section__Jobs-styledContent p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 650px) {
+    .experience {
+        padding: 100px 20% 20px;
+    }
+    .section__Jobs-styledTabList {
+        max-width: 80px;
+    }
+    .section__Jobs-buttonCompany {
+        font-size: 11px;
+        height: 27px;
+    }
+    .section__Jobs-styledContent h4 {
+        font-size: 14px;
+    }
+    .section__Jobs-styledContent h5 {
+        font-size: 10px;
+    }
+    .section__Jobs-styledContent p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 500px) {
+    .experience .exp-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .exp-container .tab {
+        border-bottom: 1px solid #a8b2d1;
+    }
+}

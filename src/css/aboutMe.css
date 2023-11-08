@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Noto+Serif+Myanmar:wght@400;500;600;700;800;900&family=Staatliches&family=Teko:wght@400;500;600;700&display=swap');
+.aboutMe {
+    padding: 50px 25% 20px;
+    height: 90vh;
+}
+
+.aboutMe .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboutMe .header h2 {
+    color: #ccd6f6;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.aboutMe .header h2::before {
+    content: " ";
+    position: absolute;
+    bottom: -3px;
+    width: 30px;
+    height: 2px;
+    background-color: #60e8cd;
+}
+
+.aboutMe .header .divider {
+    width: 300px;
+    height: 2px;
+    background-color: #8892b0;
+}
+
+.aboutMe .content {
+    display: flex;
+    margin: 10px 0 20px;
+    justify-content: space-between;
+}
+
+.aboutMe .info p {
+    color: #8892b0;
+    line-height: 30px;
+    text-indent: 50px;
+}
+
+.aboutMe .image {
+    text-align: center;
+    margin: 20px 0 0 60px;
+}
+
+.aboutMe .image img {
+    width: 300px;
+    object-fit: cover !important;
+    border-radius: 7px;
+    filter: brightness(.7);
+    transition: .3s;
+}
+
+.aboutMe .image img:hover {
+    filter: brightness(1);
+    transform: translateY(-10px);
+}
+
+@media (max-width: 1600px) {
+    .aboutMe {
+        padding: 50px 20% 20px;
+    }
+    .aboutMe .header h2 {
+        font-size: 20px;
+    }
+    .aboutMe .header .divider {
+        width: 200px;
+    }
+    .aboutMe .info p {
+        font-size: 15px;
+    }
+    .aboutMe .image {
+        text-align: center;
+        margin: 20px 0 0 60px;
+    }
+    .aboutMe .image img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .aboutMe {
+        padding: 50px 18% 20px;
+    }
+    .aboutMe .header h2 {
+        font-size: 18px;
+    }
+    .aboutMe .header .divider {
+        width: 200px;
+    }
+    .aboutMe .info p {
+        font-size: 14px;
+    }
+    .aboutMe .image {
+        text-align: center;
+        margin: 20px 0 0 60px;
+    }
+    .aboutMe .image img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 990px) {
+    .aboutMe {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutMe {
+        padding: 50px 25% 20px;
+    }
+    .aboutMe .header h2 {
+        font-size: 15px;
+    }
+    .aboutMe .header .divider {
+        width: 120px;
+    }
+    .aboutMe .content {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .aboutMe .info p {
+        font-size: 14px;
+    }
+    .aboutMe .image {
+        text-align: center;
+        margin: 20px 0 0 60px;
+    }
+    .aboutMe .image img {
+        width: 180px;
+    }
+}
+
+@media (max-width:500px) {
+    .aboutMe {
+        padding: 50px 18% 20px;
+    }
+    .aboutMe .image {
+        display: flex;
+        margin-left: 0;
+    }
+    .aboutMe .info p {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Noto+Serif+Myanmar:wght@400;500;600;700;800;900&family=Staatliches&family=Teko:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bangers&family=Bebas+Neue&family=Chakra+Petch:wght@500&family=Noto+Serif+Myanmar:wght@400;500;600;700;800;900&family=Staatliches&family=Teko:wght@400;500;600;700&display=swap');
+.contact {
+    padding: 50px 25%;
+    margin-top: 150px;
+    text-align: center;
+    height: 80vh;
+}
+
+.contact h6 {
+    color: #60e8cd;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.contact h2 {
+    color: #ccd6f6;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.contact .contact-info {
+    color: #8892b0;
+    margin-bottom: 60px;
+}
+
+.contact a {
+    border: 1px solid #60e8cd;
+    text-decoration: none;
+    color: #60e8cd;
+    padding: 20px 35px;
+    transition: .3s ease;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.contact a:hover {
+    background-color: #60e8cd;
+    color: #000;
+}
+
+.contact p {
+    margin-top: 200px;
+    color: #8892b0;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1600px) {
+    .contact {
+        padding: 50px 20%;
+        margin-top: 100px;
+        height: 90vh;
+    }
+    .contact h6 {
+        font-size: 15px;
+    }
+    .contact h2 {
+        font-size: 40px;
+    }
+    .contact a {
+        padding: 10px 30px;
+    }
+    .contact p {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        padding: 50px 18%;
+        margin-top: 100px;
+        height: 90vh;
+    }
+    .contact h6 {
+        font-size: 14px;
+    }
+    .contact h2 {
+        font-size: 35px;
+    }
+    .contact a {
+        padding: 10px 30px;
+    }
+    .contact p {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 50px 18%;
+        margin-top: 100px;
+        height: 90vh;
+    }
+    .contact h6 {
+        font-size: 13px;
+    }
+    .contact h2 {
+        font-size: 30px;
+    }
+    .contact a {
+        padding: 7px 25px;
+        font-size: 13px;
+    }
+    .contact p {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact a {
+        padding: 7px 25px;
+        font-size: 12px;
+    }
+    .contact p {
+        font-size: 12px;
+        margin-top: 130px;
+    }
+}
