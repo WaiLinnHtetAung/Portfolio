@@ -24,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Create SSH directory
+        run: mkdir -p ~/.ssh
+
       - name: Install SSH key
         run: |
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/contabo
