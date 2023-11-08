@@ -24,17 +24,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Deploy to server
-        uses: easingthemes/ssh-deploy@main
+      - name: Deploy to Server
         env:
-          SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
-          REMOTE_HOST: ${{secrets.HOST}}
-          REMOTE_USER: ${{secrets.USERNAME}}
-          TARGET: ${{secrets.TARGET_DIR}}
-
-      - name: Run build
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SERVER_IP: ${{ secrets.HOST }}
+          SSH_USERNAME: ${{ secrets.USERNAME }}
         run: |
-          cd /var/www/me && npm run build
+          ssh -i <(echo "$SSH_PRIVATE_KEY") $SSH_USERNAME@$SERVER_IP "cd /var/www/me && git pull && npm install && npm run build"
 
 
    
