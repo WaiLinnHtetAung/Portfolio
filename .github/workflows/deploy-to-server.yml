@@ -24,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.0
         with:
@@ -34,6 +37,6 @@ jobs:
 
       - name: Deploy to Server
         run: |
-          ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd /var/www/me && git pull origin main && /root/.nvm/versions/node/v20.9.0/bin/node /root/.nvm/versions/node/v20.9.0/bin/npm ci && /root/.nvm/versions/node/v20.9.0/bin/npm run build'
+          ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd /var/www/me && git pull origin main && /root/.nvm/versions/node/v20.9.0/bin/node /root/.nvm/versions/node/v20.9.0/bin/npm install && /root/.nvm/versions/node/v20.9.0/bin/npm run build'
           
    
