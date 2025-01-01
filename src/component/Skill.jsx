@@ -17,6 +17,8 @@ import css from '../assets/images/css.png'
 import bs from '../assets/images/bs.png'
 import jquery from '../assets/images/jquery.png'
 import react from '../assets/images/react.png'
+import tailwind from '../assets/images/tailwind.png'
+import typescript from '../assets/images/typescript.png'
 import vue from '../assets/images/vue.png'
 import js from '../assets/images/js.png'
 import php from '../assets/images/php.png'
@@ -81,6 +83,8 @@ export default function CustomizedTimeline() {
                                 <img src={jquery} alt="" />
                                 <img src={vue} alt="" />
                                 <img src={react} alt="" />
+                                <img src={tailwind} alt="" />
+                                <img src={typescript} className='padding-image' alt="" />
                             </div>
                         </Box>
                     </TimelineContent>

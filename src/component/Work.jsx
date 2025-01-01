@@ -4,7 +4,7 @@ import { GitHub, Launch } from "@mui/icons-material"
 
 import mha from '../assets/images/work/mha.png'
 import greenit from '../assets/images/work/greenit.png'
-import rihea from '../assets/images/work/rihea.png'
+import itgateway from '../assets/images/work/itgateway.png'
 import lifeline from '../assets/images/work/lifeline.png'
 import pkf from '../assets/images/work/pkf.png'
 import hitachi from '../assets/images/work/hitachi.png'
@@ -30,11 +30,11 @@ export default function Work() {
                         </p>
                         <div className="link">
                             <div className="git">
-                                <a href="https://github.com/WaiLinnHtetAung/myanmar-hotelier" target="_blink"><GitHub /></a>
-                                <a href="https://github.com/WaiLinnHtetAung/mha_backend" target="_blink"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
                             </div>
                             <div className="site-link">
-                                <a href="https://mha.itgatewaymm.com/" target="_blink"><Launch /></a>
+                                <a href="https://myanmarhotelier.org/" target="_blink"><Launch /></a>
                             </div>
                         </div>
                     </Box>
@@ -48,8 +48,8 @@ export default function Work() {
                         </p>
                         <div className="link">
                             <div className="git">
-                                <a href="https://github.com/WaiLinnHtetAung/GreenIT" target="_blink"><GitHub /></a>
-                                <a href="https://github.com/WaiLinnHtetAung/GreenIT_backend" target="_blink"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
                             </div>
                             <div className="site-link">
                                 <a href="https://greenitmm.com" target="_blink"><Launch /></a>
@@ -58,19 +58,19 @@ export default function Work() {
                     </Box>
                     <Box className="project">
                         <div className="img">
-                            <img src={rihea} alt="" />
+                            <img src={itgateway} alt="" />
                         </div>
-                        <h2>RIHEA EDUCATION</h2>
+                        <h2>itGateway</h2>
                         <p>
-                            RIHEA website is developed using Vuejs framework for frontend and Laravel, MySQL for backend and data store. RIHEA website is about educational for GED and IGCSE Classes.
+                            itGateway is a company that offers cloud server, infrastructure, and IT services. itGateway website is developed using Vuejs framework for frontend and Laravel, MySQL for backend and data store.
                         </p>
                         <div className="link">
                             <div className="git">
-                                <a href="https://github.com/WaiLinnHtetAung/miga-project" target="_blink"><GitHub /></a>
-                                <a href="https://github.com/WaiLinnHtetAung/backend-miga-pj" target="_blink"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
                             </div>
                             <div className="site-link">
-                                <a href="https://www.rihea.education/" target="_blink"><Launch /></a>
+                                <a href="https://www.itgatewaycloud.com/" target="_blink"><Launch /></a>
                             </div>
                         </div>
                     </Box>
@@ -84,7 +84,7 @@ export default function Work() {
                         </p>
                         <div className="link">
                             <div className="git">
-                                <a href="https://github.com/WaiLinnHtetAung/lifeline" target="_blink"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
                             </div>
                             <div className="site-link">
                                 <a href="http://demo.lifelinemyanmar.com/" target="_blink"><Launch /></a>
@@ -101,10 +101,10 @@ export default function Work() {
                         </p>
                         <div className="link">
                             <div className="git">
-                                <a href="https://github.com/WaiLinnHtetAung/pkf" target="_blink"><GitHub /></a>
+                                <a href="#"><GitHub /></a>
                             </div>
                             <div className="site-link">
-                                <a href="http://pkf.itgatewaymm.com/" target="_blink"><Launch /></a>
+                                <a href="https://pkf.com.mm/" target="_blink"><Launch /></a>
                             </div>
                         </div>
                     </Box>
@@ -118,10 +118,10 @@ export default function Work() {
                         </p>
                         <div className="link">
                             <div className="git">
-                                <a href="https://github.com/WaiLinnHtetAung/hitachi-soe" target="_blink"><GitHub /></a>
+                                <a href="#" ><GitHub /></a>
                             </div>
                             <div className="site-link">
-                                <a href="https://hitachi-soe.learn-zones.com/" target="_blink"><Launch /></a>
+                                <a href="https://www.hitachi-soeelectric.com/" target="_blink"><Launch /></a>
                             </div>
                         </div>
                     </Box>

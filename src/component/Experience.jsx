@@ -35,6 +35,9 @@ export default function Experience() {
                 `Deliver high-quality, robust productin code for a diverse array of projects for clients.`,
                 `Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders`,
                 `Complete daily tasks in time and create technology contents for sharing`,
+                `Develop fullstack website like ecommerce, blogs, and database structures`,
+                'Develop API to connect frontend and backend',
+                `Deploy web applications to production environments and integrate using CI/CD pipeline`,
             ]
         },
     ];

@@ -41,7 +41,7 @@ export default function Nav({ toggleDrawer }) {
 
             <a
               className="resume"
-              href="../../public/cv.pdf"
+              href="/cv.pdf"
               download
               target="_blink"
             >

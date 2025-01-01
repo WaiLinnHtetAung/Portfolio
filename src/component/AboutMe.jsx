@@ -16,10 +16,14 @@ export default function AboutMe() {
                 <Box className="content">
                     <Box className="info">
                         <p>
-                            Hello! My name is Wai Linn Htet Aung. I am a fullstack developer. I enjoy crating things that help poeple on the internet. My interested in web development started back in 2022 April. Before I started web developing, I studied Computer Networking and finished CCNA. When I change my career from Network Engineer to Web developer, the technologies I studied helps me a lot to understand backend service and server deployment.
+                        Hello! My name is Wai Linn Htet Aung, and I’m a passionate fullstack developer. I specialize in creating impactful websites and applications that improve people’s experiences on the internet.
+
+I began my journey in web development in April 2022, and since then, I’ve been dedicated to mastering both frontend and backend technologies. With a strong foundation in backend services and server deployment, I strive to deliver efficient and reliable digital solutions.
+
+
                         </p>
                         <p>
-                            From now on, I'm working as a junior fullstack developer and I love building websites that attract and help popple workload. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
+                        Currently, I work as a fullstack developer, focusing on building accessible and user-friendly products for diverse clients. I’m driven by the idea of crafting tools that not only look great but also make people’s work easier and more productive.
                         </p>
                     </Box>
 

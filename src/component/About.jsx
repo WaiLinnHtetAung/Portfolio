@@ -10,8 +10,7 @@ export default function About() {
         <h3>Web Developer </h3>
         <Typography className="text">
           I'm a software engineer. I specialize in developing websites both
-          frontend and backend.Currently I'm focused on building websites using
-          React & NodeJs.
+          frontend and backend. I'm proficient in server deployment and also CI/CD pipeline. 
         </Typography>
       </Box>
     </>
